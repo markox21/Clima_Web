@@ -26,7 +26,7 @@ let weather = {
         "Viento: " + speed + " m/s"; //velocidad viento metros x segundo
      
       document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + name + " city')";//cambio del fondo segun la ciudad
+        "url('https://source.unsplash.com/1920x1080/?" + name + " city')";//cambio del fondo segun la ciudad
     },
     search: function (){
       this.fetchWeather(document.querySelector(".search-bar").value);
